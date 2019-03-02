@@ -1,0 +1,23 @@
+{
+	"private": true,
+	"name": "@smotaal/helpers",
+  "description": "smotaal.io/helpers",
+  "version": "0.0.0-alpha.1",
+  "author": "Saleh Abdel Motaal <saleh@grasppe.com>",
+  "repository": "https://github.com/SMotaal/helpers.git",
+  "license": "MIT",
+	"type": "module",
+  "exports": {},
+	"scripts": {
+		"serve": "http-server --cors -s",
+		"bundle": "rollup -c rollup.config.js"
+	},
+	"devDependencies": {
+		"@types/node": "*",
+		"http-server": "*",
+		"prettier": "*",
+		"rollup": "*",
+		"typescript": "*",
+		"@smotaal/esm": "SMotaal/esm"
+	}
+}

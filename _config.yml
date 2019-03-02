@@ -1,0 +1,5 @@
+﻿# * SEE: https://jekyllrb.com/docs/configuration/options/
+
+exclude: ['components', 'markup', 'pholio', '[more]', 'trash', '[trash]', 'node_modules']
+
+include: ['examples', 'elements', 'lib']
